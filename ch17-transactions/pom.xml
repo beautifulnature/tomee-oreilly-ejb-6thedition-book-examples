@@ -4,7 +4,7 @@
   <!-- Parent Information -->
   <parent>
     <groupId>org.jboss.ejb3.examples</groupId>
-    <artifactId>jboss-ejb3-examples-build</artifactId>
+    <artifactId>jboss-ejb3-examples-tomee17-build</artifactId>
     <version>1.1.0-SNAPSHOT</version>
     <relativePath>../build/pom.xml</relativePath>
   </parent>
@@ -29,7 +29,7 @@
 
   <!-- Dependencies -->
   <dependencies>
-  
+
     <dependency>
       <groupId>org.jboss.as</groupId>
       <artifactId>jboss-as-spec-api</artifactId>
@@ -40,9 +40,9 @@
       <artifactId>jboss-ejb3-examples-testsupport</artifactId>
       <version>${project.version}</version>
     </dependency>
-  
-    <!-- 
-    
+
+    <!--
+
     Test Dependencies
      -->
 
@@ -61,14 +61,14 @@
       <type>zip</type>
       <scope>test</scope>
     </dependency>
-    
+
     <!-- JUnit -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
-    
-        <!-- 
+
+        <!--
     HACK:
     Currently the ARQ Managed Container is not exporting
     all deps needed to run, at a minimum, jboss-threads
@@ -92,9 +92,9 @@
     </dependency>
 
   </dependencies>
-  
+
   <!--
-    We also need to place the AS depchain into 
+    We also need to place the AS depchain into
     the "dependencyManagement" section in import scope
     so that Maven respects the "exclusion" elements
     configured
@@ -108,9 +108,9 @@
         <type>pom</type>
         <scope>import</scope>
         <version>${version.org.jboss.as.7}</version>
-      </dependency> 
+      </dependency>
     </dependencies>
-    
+
   </dependencyManagement>
 
   <profiles>
@@ -126,7 +126,7 @@
       <build>
 
         <plugins>
-        
+
           <!-- Get AS and put into "target" -->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -153,7 +153,7 @@
               </execution>
             </executions>
           </plugin>
-         
+
 
           <!-- Surefire -->
           <plugin>

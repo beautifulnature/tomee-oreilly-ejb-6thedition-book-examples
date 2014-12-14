@@ -4,7 +4,7 @@
   <!-- Parent Information -->
   <parent>
     <groupId>org.jboss.ejb3.examples</groupId>
-    <artifactId>jboss-ejb3-examples-build</artifactId>
+    <artifactId>jboss-ejb3-examples-tomee17-build</artifactId>
     <version>1.1.0-SNAPSHOT</version>
     <relativePath>../build/pom.xml</relativePath>
   </parent>
@@ -44,7 +44,7 @@
       <version>${version.org.jboss.jbossas}</version>
     </dependency>
 
-    <!-- 
+    <!--
     http://yusuke.homeip.net/twitter4j/en/index.html
      -->
     <dependency>
@@ -53,7 +53,7 @@
       <version>${version.net.homeip.yusuke_twitter4j}</version>
     </dependency>
 
-    <!-- 
+    <!--
     Test Dependencies
      -->
     <dependency>
@@ -70,9 +70,9 @@
     </dependency>
 
   </dependencies>
-  
+
   <dependencyManagement>
-  
+
   </dependencyManagement>
 
   <profiles>

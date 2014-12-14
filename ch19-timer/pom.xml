@@ -4,7 +4,7 @@
   <!-- Parent Information -->
   <parent>
     <groupId>org.jboss.ejb3.examples</groupId>
-    <artifactId>jboss-ejb3-examples-build</artifactId>
+    <artifactId>jboss-ejb3-examples-tomee17-build</artifactId>
     <version>1.1.0-SNAPSHOT</version>
     <relativePath>../build/pom.xml</relativePath>
   </parent>
@@ -38,12 +38,12 @@
       <type>pom</type>
     </dependency>
 
-    <!-- 
-    
+    <!--
+
     Test Dependencies
      -->
 
-    <!-- Arquillian Test Harness  
+    <!-- Arquillian Test Harness
     <dependency>
       <groupId>org.jboss.arquillian.container</groupId>
       <artifactId>arquillian-glassfish-embedded-30</artifactId>
@@ -56,17 +56,17 @@
       <groupId>org.jboss.arquillian</groupId>
       <artifactId>arquillian-junit</artifactId>
     </dependency> -->
-    
+
     <!-- JUnit -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
-   
-    <!-- GlassFish Embedded v3 
+
+    <!-- GlassFish Embedded v3
     <dependency>
       <groupId>org.glassfish.extras</groupId>
-      <artifactId>glassfish-embedded-all</artifactId>   
+      <artifactId>glassfish-embedded-all</artifactId>
     </dependency>
     <dependency>
       <groupId>org.glassfish.extras</groupId>
@@ -77,14 +77,14 @@
       <artifactId>ejb-timer-service-app</artifactId>
       <type>war</type>
     </dependency> -->
-   
+
    <!--  OpenEJB
     <dependency>
       <groupId>org.apache.openejb</groupId>
       <artifactId>openejb-core</artifactId>
       <scope>test</scope>
     </dependency> -->
-     
+
   </dependencies>
 
 </project>

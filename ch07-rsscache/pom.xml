@@ -4,7 +4,7 @@
   <!-- Parent Information -->
   <parent>
     <groupId>org.jboss.ejb3.examples</groupId>
-    <artifactId>jboss-ejb3-examples-build</artifactId>
+    <artifactId>jboss-ejb3-examples-tomee17-build</artifactId>
     <version>1.1.0-SNAPSHOT</version>
     <relativePath>../build/pom.xml</relativePath>
   </parent>
@@ -50,13 +50,13 @@
       <artifactId>rome-fetcher</artifactId>
       <version>${version.rome_rome.fetcher}</version>
     </dependency>
-    
+
     <dependency>
       <groupId>org.mortbay.jetty</groupId>
       <artifactId>jetty</artifactId>
       <version>6.1.16</version>
     </dependency>
-    
+
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>

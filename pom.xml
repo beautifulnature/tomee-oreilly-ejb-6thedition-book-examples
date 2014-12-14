@@ -7,9 +7,9 @@
   <!-- Artifact Information -->
   <groupId>org.jboss.ejb3.examples</groupId>
   <artifactId>jboss-ejb3-examples-aggregator</artifactId>
-  <name>Aggregator POM for JBoss EJB3 Examples</name>
+  <name>Aggregator POM for Tomee EJB3 Examples</name>
   <version>1.1.0-SNAPSHOT</version>
-  <description>Aggregator POM for JBoss EJB3 Examples</description>
+  <description>Aggregator POM for Tomee EJB3 Examples</description>
   <packaging>pom</packaging>
 
   <!-- Modules in Aggregator -->
@@ -20,9 +20,9 @@
     <module>ch06-filetransfer</module>
     <module>ch07-rsscache</module>
 
-<!-- 
+<!--
     Twitter disabled Basic Authentication
-    https://jira.jboss.org/browse/EJBBOOK-38 
+    https://jira.jboss.org/browse/EJBBOOK-38
 
     <module>ch08-statusupdate</module> -->
     <module>ch08-messagedestinationlink</module>
